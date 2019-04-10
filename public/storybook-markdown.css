@@ -1,0 +1,18 @@
+/* custom amends to match storybook */
+.markdown-body {
+  border: 1px solid rgb(238, 238, 238);
+
+  padding: 10px;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: -apple-system, '.SFNSText-Regular', 'San Francisco',
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Lucida Grande', Arial,
+    sans-serif;
+  color: rgb(68, 68, 68);
+  -webkit-font-smoothing: antialiased;
+}

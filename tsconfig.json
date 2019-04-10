@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["es5", "es6", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "outDir": "./dist/esm",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5",
+    "types": [],
+    "typeRoots": ["/typings"]
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["**/*.stories.tsx", "**/*.test.ts", "**/*.test.tsx"]
+}

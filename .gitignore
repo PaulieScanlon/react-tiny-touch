@@ -1,0 +1,18 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# production
+dist
+
+# storybook
+/storybook-static
+storybook-static.zip
+
+# misc
+.DS_Store
+.cache
+
+npm-debug.log*
+/coverage
