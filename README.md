@@ -2,6 +2,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
 
+[![Build Status](https://travis-ci.org/PaulieScanlon/react-tiny-touch.svg?branch=master)](https://travis-ci.org/PaulieScanlon/react-tiny-touch)
 
 Touch detection in React for adaptive design.
 
@@ -32,7 +33,7 @@ hasTouch: Renders children conditionally.
 ```
 
 ### Change Log
-For changes between 1.x.x and 2.x.x see the change log [here](./CHANGELOG.MD)
+For changes between 1.x.x and 2.x.x see the change log [here](https://github.com/PaulieScanlon/react-tiny-touch/blob/master/CHANGELOG.md)
 
 ### License
 
