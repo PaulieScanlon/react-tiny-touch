@@ -1,9 +1,9 @@
 {
   "name": "react-tiny-touch",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Touch detection in React for adaptive design.",
   "keywords": [
-    "React, Touch detection"
+    "React, Touch detection, Adaptive design"
   ],
   "license": "MIT",
   "author": "Paul Scanlon",
