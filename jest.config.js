@@ -11,14 +11,8 @@ module.exports = {
   collectCoverageFrom: [
     'src/**/*.{ts,tsx}',
     '!src/**/*.stories.tsx',
-    '!src/**/index.ts',
-    '!src/utils/**/*.ts',
-    //special cases
-    '!src/components/Icon/paths.ts',
-    '!src/components/Table/*.{ts,tsx}',
-    '!src/storybook-utils/*.{ts,tsx}'
+    '!src/**/index.ts'
   ],
-
   verbose: false,
   testPathIgnorePatterns: ['/dist/', '/node_modules/'],
   snapshotSerializers: ['enzyme-to-json/serializer'],

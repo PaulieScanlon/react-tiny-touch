@@ -12,10 +12,19 @@ module.exports = env => {
     mode: 'production',
     externals: {
       react: 'react',
-      'react-dom': 'react-dom',
+      'react-dom': 'react-dom'
     },
     module: {
       rules: [{ test: /\.t|js$/, use: 'babel-loader' }]
+    },
+    resolve: {
+      extensions: ['.ts', '.tsx', '.js', '.jsx'],
+      alias: {
+        react: path.resolve(path.join(__dirname, './node_modules/react')),
+        'react-dom': path.resolve(
+          path.join(__dirname, './node_modules/react-dom')
+        )
+      }
     }
   }
 }

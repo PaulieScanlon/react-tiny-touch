@@ -1,7 +1,4 @@
-/* tslint:disable */
-import * as React from 'react'
-import { useState } from 'react'
-/* tslint:enable */
+import React, { useState } from 'react'
 
 export const TinyTouch: React.SFC = ({ children }) => {
   const [touch, setTouch] = useState(false)

@@ -24,7 +24,6 @@
     "types": [],
     "typeRoots": ["/typings"]
   },
-
   "include": ["src/**/*"],
   "exclude": ["**/*.stories.tsx", "**/*.test.ts", "**/*.test.tsx"]
 }
