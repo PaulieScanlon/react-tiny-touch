@@ -1,6 +1,6 @@
 {
   "name": "react-tiny-touch",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Touch detection in React for adaptive design.",
   "keywords": [
     "React, Touch detection, Adaptive design"

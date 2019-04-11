@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import { shallow, mount } from 'enzyme'
-import { TinyTouch } from './TinyTouch'
+import { TinyTouch, TTouch } from './TinyTouch'
 
 describe('TinyTouch', () => {
   it('renders correctly', () => {
@@ -33,7 +33,9 @@ describe('TinyTouch', () => {
     })
 
     const wrapper = mount(
-      <TinyTouch>{hasTouch => (hasTouch ? <div /> : <span />)}</TinyTouch>
+      <TinyTouch>
+        {(hasTouch: TTouch) => (hasTouch ? <div /> : <span />)}
+      </TinyTouch>
     )
     expect(wrapper.find('div'))
   })
@@ -45,7 +47,9 @@ describe('TinyTouch', () => {
     })
 
     const wrapper = mount(
-      <TinyTouch>{hasTouch => (hasTouch ? <div /> : <span />)}</TinyTouch>
+      <TinyTouch>
+        {(hasTouch: TTouch) => (hasTouch ? <div /> : <span />)}
+      </TinyTouch>
     )
     expect(wrapper.find('span'))
   })

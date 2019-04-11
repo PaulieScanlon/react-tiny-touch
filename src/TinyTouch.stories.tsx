@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 
-import { TinyTouch } from './TinyTouch'
+import { TinyTouch, TTouch } from './TinyTouch'
 
 const stories = storiesOf('TinyTouch', module)
 
@@ -20,7 +20,7 @@ stories.add(
   'hasTouch',
   () => (
     <TinyTouch>
-      {hasTouch =>
+      {(hasTouch: TTouch) =>
         hasTouch ? (
           <div>TinyTouch: hasTouch = true</div>
         ) : (

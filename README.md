@@ -8,31 +8,40 @@ Touch detection in React for adaptive design.
 
 TinyTouch checks if `'ontouchstart' in window`, it's not 100% reliable though, more info from Modernizr [You Can't Detect A Touchscreen](http://www.stucox.com/blog/you-cant-detect-a-touchscreen/)
 
-
 ### Install
 
 ```sh
 npm install react-tiny-touch --save
 ```
 
-
 ### Useage
 
 Simple: Render children.
 
 ```javascript
-  <TinyTouch>
-    <div/>
-  </TinyTouch>
+<TinyTouch>
+  <div />
+</TinyTouch>
 ```
 
 hasTouch: Renders children conditionally.
 
 ```javascript
- <TinyTouch>{hasTouch => (hasTouch ? <div /> : <span />)}</TinyTouch>
+<TinyTouch>{hasTouch => (hasTouch ? <div /> : <span />)}</TinyTouch>
+```
+
+TypeScript: TinyTouch exports a type for hasTouch, TTouch
+
+```javascript
+import { TinyTouch, TTouch } from './TinyTouch'
+```
+
+```javascript
+<TinyTouch>{(hasTouch: TTouch) => (hasTouch ? <div /> : <span />)}</TinyTouch>
 ```
 
 ### Change Log
+
 For changes between 1.x.x and 2.x.x see the change log [here](https://github.com/PaulieScanlon/react-tiny-touch/blob/master/CHANGELOG.md)
 
 ### License
