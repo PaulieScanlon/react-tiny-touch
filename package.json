@@ -50,7 +50,7 @@
     "@storybook/addon-knobs": "^5.0.6",
     "@storybook/addon-viewport": "^5.0.6",
     "@storybook/addons": "^5.0.6",
-    "@storybook/react": "^5.0.6",
+    "@storybook/react": "^9.1.1",
     "@storybook/theming": "^5.0.6",
     "@types/enzyme": "^3.9.1",
     "@types/jest": "^24.0.11",
